@@ -12,7 +12,7 @@ while st <= ed:
     elif s[st] > s[ed]:
         result += s[ed]
         ed -=1
-    # 투 포인터
+    # 투 포인터 에 투포인터
     else:
         ST, ED = st, ed
         tf = False
