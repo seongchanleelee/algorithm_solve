@@ -42,5 +42,4 @@ def solution(fees, records):
         else:
             answer.append(fees[1])
 
-
     return answer
